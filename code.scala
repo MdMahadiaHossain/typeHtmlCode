@@ -7,7 +7,7 @@ object EntryPoint {
       new html {}
     }
 
-    a {! =>!.href("www.facebook.com");!._class(Seq("container"));new text("Hello my boy")}
+     a { $ =>$.href("www.facebook.com");$._class(Seq("container"));new text("hi my boy")}
 
   }
 }
